@@ -1,0 +1,5 @@
+name: My Drupal Theme
+type: theme
+description: Theme used for building drupal website.
+core_version_requirement: ^9 || ^10
+base theme: claro
