@@ -1,0 +1,10 @@
+name: Progress Circle OR Bar
+type: module
+description: "Creates Beautiful Progress Circles or Bar"
+core_version_requirement: ^8 || ^9 || ^10
+# version: VERSION
+
+# Information added by Drupal.org packaging script on 2023-06-14
+version: '1.0.0'
+project: 'progresscirclebar'
+datestamp: 1686722421

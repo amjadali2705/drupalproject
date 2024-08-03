@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Progress Component general functions.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function progresscirclebar_theme($existing, $type, $theme, $path) {
+  return [
+    'progresscircle' => [
+      'variables' => [
+        'progress_items' => NULL,
+      ],
+    ],
+    'progressbar' => [
+      'variables' => [
+        'progress_items' => NULL,
+      ],
+    ],
+  ];
+}

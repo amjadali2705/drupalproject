@@ -1,0 +1,14 @@
+{#
+/**
+ * @ingroup themeable
+ * Progress Circle component
+ */
+#}
+{{attach_library("progresscirclebar/circle")}}
+<div class="progress-circle">
+ {% for progress_item in progress_items %}
+    <div class="progress-circle__wrapper">
+      <div class="progress-circle__value">{{ progress_item.circle_value }}</div>
+   </div>
+{% endfor %}
+</div>

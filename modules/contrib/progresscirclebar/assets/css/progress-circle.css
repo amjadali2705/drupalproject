@@ -1,0 +1,41 @@
+.progress-circle {
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  display: grid;
+  margin-block-start: 1.5rem;
+}
+.progress-circle .progress-circle__wrapper {
+  place-items: center;
+  width: 4.2rem;
+  height: 4.2rem;
+  border-radius: 50%;
+  background-color: #e3f307;
+  position: relative;
+  display: grid;
+}
+.progress-circle .progress-circle__wrapper:before {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  content: "";
+  border-radius: 50%;
+  background-color: #fff;
+}
+.progress-circle .progress-circle__value {
+  color: #0f0f0f;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.5rem;
+  font-weight: 700;
+  position: relative;
+}
+@media only screen and (min-width: 48rem) {
+  .progress-circle .progress-circle__wrapper .progress-circle__value {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 48rem) {
+  .progress-circle .progress-circle__wrapper {
+    width: 8.32rem;
+    height: 8.32rem;
+  }
+}

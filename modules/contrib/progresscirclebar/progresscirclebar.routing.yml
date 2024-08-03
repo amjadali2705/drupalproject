@@ -1,0 +1,7 @@
+progresscirclebar.settings:
+  path: '/admin/config/system/progressoptions'
+  defaults:
+    _form: '\Drupal\progresscirclebar\Form\ProgressSettingsForm'
+    _title: 'Progress Settings Form'
+  requirements:
+    _permission: 'access administration menu'

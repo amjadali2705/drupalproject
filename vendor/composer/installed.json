@@ -2156,6 +2156,57 @@
             "install-path": "../../modules/contrib/pathauto"
         },
         {
+            "name": "drupal/progresscirclebar",
+            "version": "1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/progresscirclebar.git",
+                "reference": "1.0.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/progresscirclebar-1.0.0.zip",
+                "reference": "1.0.0",
+                "shasum": "6ece027cfb2b53c3e9971d876a10bc24fe9415b8"
+            },
+            "require": {
+                "drupal/core": "^8 || ^9 || ^10"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.0.0",
+                    "datestamp": "1686722419",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "joseph.olstad",
+                    "homepage": "https://www.drupal.org/user/1321830"
+                },
+                {
+                    "name": "zeeshan_khan",
+                    "homepage": "https://www.drupal.org/user/1805074"
+                }
+            ],
+            "description": "Creates Beautiful Progress Circles or Bar",
+            "homepage": "https://www.drupal.org/project/progresscirclebar",
+            "support": {
+                "source": "https://git.drupalcode.org/project/progresscirclebar"
+            },
+            "install-path": "../../modules/contrib/progresscirclebar"
+        },
+        {
             "name": "drupal/token",
             "version": "1.15.0",
             "version_normalized": "1.15.0.0",

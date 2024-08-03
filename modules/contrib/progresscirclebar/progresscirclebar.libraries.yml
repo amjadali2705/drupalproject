@@ -1,0 +1,14 @@
+circle:
+  version: VERSION
+  css:
+    component:
+      assets/css/progress-circle.css: {}
+  js:
+    assets/js/progress-circle.js: {}
+bar:
+  version: VERSION
+  css:
+    component:
+      assets/css/progress-bar.css: {}
+  js:
+    assets/js/progress-bar.js: {}

@@ -1,0 +1,16 @@
+{#
+/**
+ * @ingroup themeable
+ * Progress Bar component
+ */
+#}
+
+{{attach_library("progresscirclebar/bar")}}
+<div class="progress-bar">
+ {% for progress_item in progress_items %}
+    <div class="progress-bar__wrapper">
+      <div class="progress-bar__value">{{ progress_item.bar_value }}</div>
+   </div>
+{% endfor %}
+</div>
+
