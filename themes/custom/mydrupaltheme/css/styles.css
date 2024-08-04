@@ -307,3 +307,20 @@ h3 {
 .progress-bars {
     display: flex;
 }
+
+section, .section {
+    color: #444444;
+    background-color: #f5f6f8;
+    padding: 60px 0;
+    scroll-margin-top: 88px;
+    overflow: clip;
+}
+
+.section-title {
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
