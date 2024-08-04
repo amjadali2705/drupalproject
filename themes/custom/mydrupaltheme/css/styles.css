@@ -19,6 +19,7 @@
 
 #hero {
     margin-top: 90px;
+    background-color: #37517E;
 }
 
 
@@ -64,9 +65,9 @@ p {
     height: 50%;
 }
 
-.mix {
+/* .mix {
     background-color: #37517E;
-}
+} */
 
 .hero-section {
     display: flex;
@@ -86,4 +87,218 @@ p {
     text-decoration: none;
     color: #ffffff;
     font: 16px "Open Sans";
+}
+
+.clients-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    background-color: #f5f6f8;
+    height: 100px;
+    padding: 12px 0px;
+}
+
+.images {
+    width: 50%;
+    /* height: 5vh !important; */
+}
+
+#about {
+    padding: 20px;
+    position: relative;
+}
+
+.about-container {
+    padding-bottom: 30px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line1, .line3 {
+    width: 50px;
+    height: 2px;
+    color: gray;
+}
+
+.line2 {
+    width: 50px;
+    height: 5px;
+    color: #47b2e4;
+}
+
+.about-container h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    padding-top: 60px;
+    text-transform: uppercase;
+    position: relative;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.about-content1 {
+    display: flex;
+}
+
+.about-subcontent1 {
+    padding-left: 20px;
+}
+
+/* .about-subcontent1 p {
+    color: #444444;
+    font: 16px "Open Sans";
+    margin: 0 0 16px;
+} */
+
+#about-p1 {
+    color: #444444;
+    font: 16px "Open Sans";
+    margin: 0 0 16px;
+}
+
+.about-li {
+    color: #444444;
+    font: 16px "Open Sans";
+    margin: 0 0 16px;
+}
+
+#about-p2 {
+    color: #444444;
+    font: 16px "Open Sans";
+    margin: 0 0 16px;
+}
+
+.read-more {
+    color: #47b2e4;
+    font: 16px jost, sans-serif;
+    text-decoration: none;
+    
+    
+} 
+
+.about-btn {
+    padding: 8px 28px;
+    border-radius: 5%;
+    border-color: #47b2e4;
+    background-color: #ffffff;
+}
+
+.subpart1-about2 {
+    width: 100%;
+    height: 500px;
+    background-color: #f5f6f8;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 34px;
+    color: #37517e;
+    font-family: "Jost", sans-serif;
+    padding-top: 30px;
+}
+
+.about2-p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: color(srgb 0.26667 0.26667 0.26667 /0.7);
+    font: 16px "Open Sans";
+    margin: 0px 0px 16px;
+}
+
+.content1 {
+    margin: 24px 0px 0px;
+    padding: 0px 12px;
+}
+
+.subpart1-about2 {
+    display: flex;
+}
+
+.img2 {
+    height: 80%;
+}
+
+.faq1 {
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.faq2 {
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.faq3 {
+    width: 100%;
+    height: 20%;
+    background-color: #ffffff;
+    margin: 20px;
+}
+
+.faq-item {
+    color: #37517e;
+    font: 17px Jost, sans-serif;
+    margin: 30px;
+    padding-bottom: 20px;
+}
+
+.faqs :hover {
+    color: #47b2e4;
+    cursor: pointer;
+}
+
+.progress-section {
+    width: 100%;
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+}
+
+.skill-img {
+    width: 70%;
+    margin: 40px;
+}
+
+.progress-h3 {
+    color: #37517e;
+    font: 32px Jost, "sans-serif";
+}
+
+.progress-p {
+    font: 16px "Open Sans";
+    color: color(srgb 0.266667 0.26667 0.26667 /0.7);
+    margin-top: 10px;
+}
+
+.progress-bar-wrap {
+    background-color: aliceblue;
+}
+
+.progress-bar{
+    background-color: #37517e;
+    height: 10px;
+    margin: 5px 0;
+}
+
+.skills {
+    padding-right: 20px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    display: flex;
 }
