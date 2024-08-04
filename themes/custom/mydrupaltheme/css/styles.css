@@ -303,3 +303,7 @@ h3 {
     justify-content: center;
     display: flex;
 }
+
+.progress-bars {
+    display: flex;
+}
